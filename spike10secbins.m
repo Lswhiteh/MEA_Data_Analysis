@@ -18,7 +18,9 @@ for file = files'
     endTimes = [];
     
     channelmultNums = table2array(dataTable(:, 1:2));
-    electrodes = unique(channelmultNums(:,1));
+    electrodes = [12:17 21:28 31:38 41:48 51:58 61:68 71:78 82:87];
+    electrodes = electrodes';
+    bins = [12:17 21:28 31:38 41:48 51:58 61:68 71:78 82:88];
     
     %Establish bin times using longest time recorded
     for i = 0:10:longTime
@@ -26,16 +28,16 @@ for file = files'
         endTimes = [endTimes;i+10];
     end
         
-    % Get counts for how many spikes in each
+    % Get counts for how many spikes in each using histcounts
     channelRepeats = {};
     binCounts = {};
     for i = 1:length(endTimes)
         indexes = channelmultNums(:, 2) >= startTimes(i) & channelmultNums(:, 2) < endTimes(i);
         channelRepeats{i} = channelmultNums(indexes);
-        binCounts{i} = [electrodes, histc(channelRepeats{i}, electrodes)];
+        binCounts{i} = [electrodes, histcounts(channelRepeats{i}, bins)'];
     end
    
-    % Bring everything together
+    % Bring everything together into table that reads easier
     summary = {};
     summary{1} = 'Electrode';
     
