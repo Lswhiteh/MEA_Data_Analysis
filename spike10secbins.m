@@ -4,9 +4,11 @@
 
 tmp = matlab.desktop.editor.getActive;
 cd(fileparts(tmp.Filename));
-files = dir('*.csv');
+
+files = dir('**\*.csv');
+
 for file = files'
-    
+    cd(file.folder)
     disp(file.name);
     filename = file.name;
     dataTable = importfile(filename);
@@ -16,7 +18,7 @@ for file = files'
     longTime = max(times);
     startTimes = [];
     endTimes = [];
-    
+      
     channelmultNums = table2array(dataTable(:, 1:2));
     electrodes = [12:17 21:28 31:38 41:48 51:58 61:68 71:78 82:87];
     electrodes = electrodes';
@@ -28,7 +30,7 @@ for file = files'
         endTimes = [endTimes;i+10];
     end
         
-    % Get counts for how many spikes in each using histcounts
+       % Get counts for how many spikes in each using histcounts
     channelRepeats = {};
     binCounts = {};
     for i = 1:length(endTimes)
@@ -61,6 +63,19 @@ for file = files'
     % Have to convert to table first
     summary = cell2table(summary);
     writetable(summary, strcat('spike_counts_', filename));
+    
+    filtered_spikes = [];
+    numeric_summary = summary{2:61, :}';
+    numeric_summary = cell2mat(numeric_summary);
+    for i = 1:60
+        if numeric_summary(1,i) >= 10 && numeric_summary(2,i) >= 10
+            filtered_spikes = [filtered_spikes numeric_summary(:,i)];
+        end
+    end
+    
+    csvwrite(strcat('filtered_spikes_', filename), filtered_spikes);
+    
+    
     
 end
     
@@ -126,4 +141,3 @@ function dataTable = importfile(filename, startRow, endRow)
     
 end
     
-
