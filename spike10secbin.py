@@ -66,27 +66,31 @@ if __name__ == "__main__":
 
     # Walk through files in all subdirs from directory being run from
     # Does not work with files already processed
-    fileDir = os.path.dirname(os.path.realpath('__file__'))
-
-    for subdir, dirs, files in os.walk(fileDir):
-            for filename in files:
+    fileDir = os.getcwd()
+    for root, dirs, files in os.walk(fileDir):
+        for dir in dirs:
+            os.chdir(os.path.abspath(root+"/"+dir))
+            print(os.getcwd())
+            for filename in os.listdir('.'):
+                print(filename)
                 if filename.endswith('.csv') and 'spike' not in filename and 'filtered' not in filename:
                     output_df, output_filtered_df = organizeSpikes(filename)[0], organizeSpikes(filename)[1]
 
                     '''
                     For separate file writing to csv
 
-                    # Print to file, make new filename
+                    Print to file, make new filename
                     new_filename = "spike_counts_" + str(filename)
                     new_filtered_filename = "filtered_" + str(filename)
                     output_df.to_csv(new_filename, mode='w')
                     output_filtered_df.to_csv(new_filtered_filename, mode='w')
                     '''
                     # Write to Excel files, first sheet is filtered, second is not
-                    writer = pd.ExcelWriter('analyzed_'+filename+'.xlsx')
+                    writer = pd.ExcelWriter('analyzed_'+filename[:-4]+'.xlsx')
                     output_filtered_df.to_excel(writer,'Filtered')
                     output_df.to_excel(writer,'Spike Counts')
                     writer.save()
+                    
 
 
                     
