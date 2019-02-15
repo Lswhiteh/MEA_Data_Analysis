@@ -1,0 +1,1375 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Multi_Channel_Suite>
+  <ExperimentSetup Version="1">
+    <HeaderID>ExperimentSetup</HeaderID>
+    <ProgramName>Multi Channel Analyzer</ProgramName>
+    <ProgramVersion>2.5.3.17193</ProgramVersion>
+    <FileVersion>1</FileVersion>
+    <FileDate>2017-09-14T13:23:19.1362028-04:00</FileDate>
+    <CultureName>en-US</CultureName>
+  </ExperimentSetup>
+  <Experiment Version="1">
+    <OriginalFileName>Rack.msa</OriginalFileName>
+    <Description></Description>
+    <Instruments>
+      <Instrument Version="2">
+        <ID Version="1">
+          <UniqueName>RawDataExplorer</UniqueName>
+          <DisplayName>Raw Data Explorer</DisplayName>
+          <Guid>1bacc09c-e694-4950-9498-1ea1019d7f49</Guid>
+          <PaletteCategory>Data Sources</PaletteCategory>
+          <DeviceCategory>DataSource</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>6</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </ID>
+        <InstrumentData />
+        <Settings>
+          <RawDataExplorerSettings Version="1">
+            <PathToConfigFiles>C:\Program Files\Multi Channel Analyzer\ConfigFiles</PathToConfigFiles>
+            <PathToMCSuiteConfigFiles />
+            <PathToDataFiles>D:\MEA Experimenter Data</PathToDataFiles>
+            <ExplorerDataDisplaySettings Version="1">
+              <ExplorerDisplayTimeResolutionInterval>
+                <TimeRangeList>
+                  <DisplayTimeRangeValue>
+                    <RangeInMilliSec>1000</RangeInMilliSec>
+                    <RangeString>1 s</RangeString>
+                    <RangeInSeconds>1</RangeInSeconds>
+                  </DisplayTimeRangeValue>
+                  <DisplayTimeRangeValue>
+                    <RangeInMilliSec>2500</RangeInMilliSec>
+                    <RangeString>2.5 s</RangeString>
+                    <RangeInSeconds>2.5</RangeInSeconds>
+                  </DisplayTimeRangeValue>
+                  <DisplayTimeRangeValue>
+                    <RangeInMilliSec>5000</RangeInMilliSec>
+                    <RangeString>5 s</RangeString>
+                    <RangeInSeconds>5</RangeInSeconds>
+                  </DisplayTimeRangeValue>
+                  <DisplayTimeRangeValue>
+                    <RangeInMilliSec>10000</RangeInMilliSec>
+                    <RangeString>10 s</RangeString>
+                    <RangeInSeconds>10</RangeInSeconds>
+                  </DisplayTimeRangeValue>
+                </TimeRangeList>
+                <ActualDescription>10 s</ActualDescription>
+                <ActualValue>
+                  <RangeInMilliSec>10000</RangeInMilliSec>
+                  <RangeString>10 s</RangeString>
+                  <RangeInSeconds>10</RangeInSeconds>
+                </ActualValue>
+                <ActualValueInSeconds>10</ActualValueInSeconds>
+              </ExplorerDisplayTimeResolutionInterval>
+              <VoltageResolutionInterval>
+                <ActualValueInMicroVolt>100</ActualValueInMicroVolt>
+              </VoltageResolutionInterval>
+            </ExplorerDataDisplaySettings>
+            <SelectedArrayIndex>0</SelectedArrayIndex>
+            <IsInstrumentWindowOpen>True</IsInstrumentWindowOpen>
+            <UserDefinedName>Raw Data Explorer</UserDefinedName>
+          </RawDataExplorerSettings>
+        </Settings>
+      </Instrument>
+      <Instrument Version="2">
+        <ID Version="1">
+          <UniqueName>OfflineSpikeDetector</UniqueName>
+          <DisplayName>Spike Detector</DisplayName>
+          <Guid>4b890d2e-7dea-422b-b7e1-db5c0b8ba037</Guid>
+          <PaletteCategory>Neuro</PaletteCategory>
+          <DeviceCategory>None</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>6</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </ID>
+        <InstrumentData />
+        <Settings>
+          <SpikeDetectorSettings Version="2">
+            <SpikeDetectorDisplaySettings>
+              <RawDataSpikeTsDisplaySetting Version="1">
+                <OverviewDisplayTimeResolutionInterval />
+                <OverviewDisplayVoltageResolutionInterval />
+                <ZoomDisplayTimeResolutionInterval />
+                <ZoomDisplayVoltageResolutionInterval />
+              </RawDataSpikeTsDisplaySetting>
+              <SpikeCutoutDisplaySettings Version="1">
+                <OverlayNumber>0</OverlayNumber>
+                <VoltageResolutionInterval />
+              </SpikeCutoutDisplaySettings>
+            </SpikeDetectorDisplaySettings>
+            <ChannelStateMap>
+              <ChannelIDs>
+                <ChannelState>
+                  <HardwareID>0</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>1</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>2</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>3</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>4</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>5</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>6</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>7</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>8</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>9</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>10</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>11</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>12</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>13</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>14</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>15</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>16</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>17</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>18</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>19</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>20</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>21</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>22</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>23</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>24</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>25</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>26</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>27</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>28</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>29</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>30</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>31</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>32</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>33</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>34</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>35</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>36</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>37</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>38</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>39</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>40</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>41</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>42</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>43</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>44</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>45</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>46</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>47</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>48</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>49</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>50</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>51</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>52</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>53</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>54</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>55</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>56</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>57</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>58</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>59</HardwareID>
+                  <State>Selected</State>
+                </ChannelState>
+              </ChannelIDs>
+            </ChannelStateMap>
+            <SpikeDetectorSettingsPerArray>
+              <Array>
+                <Index>0</Index>
+                <SpikeDetectorParameter>
+                  <Detection>Threshold</Detection>
+                  <RisingStdDevFactor>5.0</RisingStdDevFactor>
+                  <FallingStdDevFactor>-5.0</FallingStdDevFactor>
+                  <DeadTime>3000</DeadTime>
+                  <RisingThreshold>True</RisingThreshold>
+                  <FallingThreshold>True</FallingThreshold>
+                  <RisingThresholdSettings>
+                    <Channel HardwareID="0" RisingThreshold="15.0086267677317" />
+                    <Channel HardwareID="1" RisingThreshold="16.1569125732042" />
+                    <Channel HardwareID="2" RisingThreshold="33.919286803614" />
+                    <Channel HardwareID="3" RisingThreshold="16.1972576436486" />
+                    <Channel HardwareID="4" RisingThreshold="17.1555545432988" />
+                    <Channel HardwareID="5" RisingThreshold="16.3703968612475" />
+                    <Channel HardwareID="6" RisingThreshold="15.9873772681644" />
+                    <Channel HardwareID="7" RisingThreshold="17.2204426753843" />
+                    <Channel HardwareID="8" RisingThreshold="16.7127819670352" />
+                    <Channel HardwareID="9" RisingThreshold="19.9702407258607" />
+                    <Channel HardwareID="10" RisingThreshold="16.6873343865538" />
+                    <Channel HardwareID="11" RisingThreshold="16.267528366305" />
+                    <Channel HardwareID="12" RisingThreshold="15.641961564406" />
+                    <Channel HardwareID="13" RisingThreshold="16.8267374152382" />
+                    <Channel HardwareID="14" RisingThreshold="5.10361107022702" />
+                    <Channel HardwareID="15" RisingThreshold="18.0938550764648" />
+                    <Channel HardwareID="16" RisingThreshold="19.3657673959016" />
+                    <Channel HardwareID="17" RisingThreshold="18.187648465738" />
+                    <Channel HardwareID="18" RisingThreshold="21.7844317179951" />
+                    <Channel HardwareID="19" RisingThreshold="66.4850958492045" />
+                    <Channel HardwareID="20" RisingThreshold="16.9691976757918" />
+                    <Channel HardwareID="21" RisingThreshold="16.1407967575855" />
+                    <Channel HardwareID="22" RisingThreshold="16.3874632642534" />
+                    <Channel HardwareID="23" RisingThreshold="22.7567626997558" />
+                    <Channel HardwareID="24" RisingThreshold="17.1110400941612" />
+                    <Channel HardwareID="25" RisingThreshold="16.9534949600401" />
+                    <Channel HardwareID="26" RisingThreshold="16.028332080657" />
+                    <Channel HardwareID="27" RisingThreshold="15.3903982911632" />
+                    <Channel HardwareID="28" RisingThreshold="17.2221398053008" />
+                    <Channel HardwareID="29" RisingThreshold="15.6105241576792" />
+                    <Channel HardwareID="30" RisingThreshold="16.1151244989301" />
+                    <Channel HardwareID="31" RisingThreshold="17.6238383182152" />
+                    <Channel HardwareID="32" RisingThreshold="77.3041068535869" />
+                    <Channel HardwareID="33" RisingThreshold="16.4897115668183" />
+                    <Channel HardwareID="34" RisingThreshold="20.723629386762" />
+                    <Channel HardwareID="35" RisingThreshold="38.8284386424587" />
+                    <Channel HardwareID="36" RisingThreshold="16.6867342523358" />
+                    <Channel HardwareID="37" RisingThreshold="16.1350289505937" />
+                    <Channel HardwareID="38" RisingThreshold="16.7919966768676" />
+                    <Channel HardwareID="39" RisingThreshold="17.7603429436043" />
+                    <Channel HardwareID="40" RisingThreshold="24.0495941724463" />
+                    <Channel HardwareID="41" RisingThreshold="19.3989029051705" />
+                    <Channel HardwareID="42" RisingThreshold="15.298502237059" />
+                    <Channel HardwareID="43" RisingThreshold="16.0143084710185" />
+                    <Channel HardwareID="44" RisingThreshold="15.7366694290009" />
+                    <Channel HardwareID="45" RisingThreshold="18.9669354358803" />
+                    <Channel HardwareID="46" RisingThreshold="77.2070907915407" />
+                    <Channel HardwareID="47" RisingThreshold="17.7185758468644" />
+                    <Channel HardwareID="48" RisingThreshold="16.0153031543064" />
+                    <Channel HardwareID="49" RisingThreshold="17.1588794567205" />
+                    <Channel HardwareID="50" RisingThreshold="16.0810825433674" />
+                    <Channel HardwareID="51" RisingThreshold="25.5029319750771" />
+                    <Channel HardwareID="52" RisingThreshold="15.9582517051342" />
+                    <Channel HardwareID="53" RisingThreshold="16.43802307697" />
+                    <Channel HardwareID="54" RisingThreshold="17.6751078593352" />
+                    <Channel HardwareID="55" RisingThreshold="19.6896597183157" />
+                    <Channel HardwareID="56" RisingThreshold="57.3592563788614" />
+                    <Channel HardwareID="57" RisingThreshold="15.4475326360548" />
+                    <Channel HardwareID="58" RisingThreshold="16.5535561001754" />
+                    <Channel HardwareID="59" RisingThreshold="16.9298235346925" />
+                  </RisingThresholdSettings>
+                  <FallingThresholdSettings>
+                    <Channel HardwareID="0" FallingThreshold="-14.7048320037317" />
+                    <Channel HardwareID="1" FallingThreshold="-15.8978215592042" />
+                    <Channel HardwareID="2" FallingThreshold="-31.073303026614" />
+                    <Channel HardwareID="3" FallingThreshold="-15.8831392936486" />
+                    <Channel HardwareID="4" FallingThreshold="-16.7324424902988" />
+                    <Channel HardwareID="5" FallingThreshold="-15.8036486792475" />
+                    <Channel HardwareID="6" FallingThreshold="-15.7399449921644" />
+                    <Channel HardwareID="7" FallingThreshold="-16.6686672693842" />
+                    <Channel HardwareID="8" FallingThreshold="-16.1865771060352" />
+                    <Channel HardwareID="9" FallingThreshold="-20.8644706988607" />
+                    <Channel HardwareID="10" FallingThreshold="-16.1283110125538" />
+                    <Channel HardwareID="11" FallingThreshold="-15.802823944305" />
+                    <Channel HardwareID="12" FallingThreshold="-15.515038677406" />
+                    <Channel HardwareID="13" FallingThreshold="-16.8930300962382" />
+                    <Channel HardwareID="14" FallingThreshold="-5.06672749622702" />
+                    <Channel HardwareID="15" FallingThreshold="-18.0131499064648" />
+                    <Channel HardwareID="16" FallingThreshold="-19.3941036129016" />
+                    <Channel HardwareID="17" FallingThreshold="-18.002729913738" />
+                    <Channel HardwareID="18" FallingThreshold="-21.5450341959951" />
+                    <Channel HardwareID="19" FallingThreshold="-62.8571183142044" />
+                    <Channel HardwareID="20" FallingThreshold="-17.8153264137918" />
+                    <Channel HardwareID="21" FallingThreshold="-15.5977236815855" />
+                    <Channel HardwareID="22" FallingThreshold="-15.8389303702534" />
+                    <Channel HardwareID="23" FallingThreshold="-22.4624689727558" />
+                    <Channel HardwareID="24" FallingThreshold="-16.3531148351612" />
+                    <Channel HardwareID="25" FallingThreshold="-16.6645656830401" />
+                    <Channel HardwareID="26" FallingThreshold="-16.219604525657" />
+                    <Channel HardwareID="27" FallingThreshold="-15.1626833491632" />
+                    <Channel HardwareID="28" FallingThreshold="-16.8869808903008" />
+                    <Channel HardwareID="29" FallingThreshold="-15.7794328066792" />
+                    <Channel HardwareID="30" FallingThreshold="-15.5080594949301" />
+                    <Channel HardwareID="31" FallingThreshold="-16.9343395992152" />
+                    <Channel HardwareID="32" FallingThreshold="-75.8001534935869" />
+                    <Channel HardwareID="33" FallingThreshold="-15.9855128718183" />
+                    <Channel HardwareID="34" FallingThreshold="-18.817735669762" />
+                    <Channel HardwareID="35" FallingThreshold="-38.0823032524587" />
+                    <Channel HardwareID="36" FallingThreshold="-16.2218152523358" />
+                    <Channel HardwareID="37" FallingThreshold="-15.9343389155937" />
+                    <Channel HardwareID="38" FallingThreshold="-16.1073021208676" />
+                    <Channel HardwareID="39" FallingThreshold="-17.3936291416043" />
+                    <Channel HardwareID="40" FallingThreshold="-23.7853175234463" />
+                    <Channel HardwareID="41" FallingThreshold="-19.0178123771705" />
+                    <Channel HardwareID="42" FallingThreshold="-15.133956674059" />
+                    <Channel HardwareID="43" FallingThreshold="-16.0180635860185" />
+                    <Channel HardwareID="44" FallingThreshold="-15.6938849600009" />
+                    <Channel HardwareID="45" FallingThreshold="-18.8911178758803" />
+                    <Channel HardwareID="46" FallingThreshold="-75.8021651785407" />
+                    <Channel HardwareID="47" FallingThreshold="-17.5309750698644" />
+                    <Channel HardwareID="48" FallingThreshold="-16.0865549713064" />
+                    <Channel HardwareID="49" FallingThreshold="-17.4653445247205" />
+                    <Channel HardwareID="50" FallingThreshold="-15.8055643913674" />
+                    <Channel HardwareID="51" FallingThreshold="-25.3283727720771" />
+                    <Channel HardwareID="52" FallingThreshold="-15.6636957161342" />
+                    <Channel HardwareID="53" FallingThreshold="-15.99859117497" />
+                    <Channel HardwareID="54" FallingThreshold="-17.6383673373352" />
+                    <Channel HardwareID="55" FallingThreshold="-19.7235034373157" />
+                    <Channel HardwareID="56" FallingThreshold="-57.7901647658614" />
+                    <Channel HardwareID="57" FallingThreshold="-15.1714303550548" />
+                    <Channel HardwareID="58" FallingThreshold="-16.9477001231754" />
+                    <Channel HardwareID="59" FallingThreshold="-16.5172615666925" />
+                  </FallingThresholdSettings>
+                  <SlopeDetection>SlopeStdDev</SlopeDetection>
+                  <MinSlopeRaiseTime>100</MinSlopeRaiseTime>
+                  <MaxSlopeRaiseTime>1000</MaxSlopeRaiseTime>
+                  <MinSlopeAmplitude>-1000</MinSlopeAmplitude>
+                  <MinSlopeStdDev>-10</MinSlopeStdDev>
+                  <GenerateSpikeCutout>True</GenerateSpikeCutout>
+                  <PreTrigger>1000</PreTrigger>
+                  <PostTrigger>2000</PostTrigger>
+                  <GenerateTimestamps>True</GenerateTimestamps>
+                </SpikeDetectorParameter>
+              </Array>
+            </SpikeDetectorSettingsPerArray>
+            <MultiwellLayoutSettings>
+              <Version>1</Version>
+              <SelectedArrayIndex>0</SelectedArrayIndex>
+              <SelecteArrayRow>0</SelecteArrayRow>
+              <SelecteArrayColumn>0</SelecteArrayColumn>
+              <MeaID>60MEA100_10</MeaID>
+              <MeaButtonStates>
+                <ChannelState>
+                  <HardwareID>0</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>47</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>1</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>48</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>2</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>46</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>3</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>45</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>4</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>38</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>5</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>37</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>6</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>28</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>7</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>36</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>8</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>27</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>9</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>17</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>10</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>26</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>11</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>16</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>12</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>35</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>13</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>25</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>14</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>15</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>15</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>14</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>16</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>24</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>17</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>34</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>18</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>13</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>19</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>23</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>20</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>12</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>21</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>22</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>22</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>33</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>23</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>21</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>24</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>32</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>25</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>31</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>26</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>44</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>27</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>43</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>28</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>41</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>29</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>42</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>30</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>52</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>31</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>51</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>32</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>53</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>33</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>54</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>34</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>61</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>35</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>62</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>36</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>71</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>37</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>63</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>38</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>72</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>39</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>82</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>40</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>73</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>41</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>83</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>42</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>64</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>43</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>74</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>44</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>84</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>45</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>85</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>46</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>75</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>47</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>65</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>48</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>86</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>49</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>76</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>50</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>87</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>51</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>77</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>52</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>66</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>53</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>78</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>54</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>67</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>55</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>68</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>56</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>55</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>57</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>56</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>58</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>58</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+                <ChannelState>
+                  <HardwareID>59</HardwareID>
+                  <MeaButtonStateInfo>
+                    <ButtonState>Selected</ButtonState>
+                    <ArrayIndex>0</ArrayIndex>
+                    <ChannelName>57</ChannelName>
+                  </MeaButtonStateInfo>
+                </ChannelState>
+              </MeaButtonStates>
+            </MultiwellLayoutSettings>
+            <GenerateSpikeCutout>True</GenerateSpikeCutout>
+            <GenerateTimestamps>True</GenerateTimestamps>
+            <MeasureTime>500000</MeasureTime>
+            <IsInstrumentWindowOpen>True</IsInstrumentWindowOpen>
+            <UserDefinedName>Spike Detector</UserDefinedName>
+          </SpikeDetectorSettings>
+        </Settings>
+      </Instrument>
+      <Instrument Version="2">
+        <ID Version="1">
+          <UniqueName>OfflineSpikeAnalyzer</UniqueName>
+          <DisplayName>Spike Analyzer</DisplayName>
+          <Guid>e609c2e0-7a82-4b92-87f7-b14b1bf9e770</Guid>
+          <PaletteCategory>Neuro</PaletteCategory>
+          <DeviceCategory>None</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>0</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </ID>
+        <InstrumentData />
+        <Settings>
+          <SpikeAnalyzerSettings Version="0">
+            <SpikeAnalyzerDisplaySettings Version="1">
+              <OverviewTimeResolution>
+                <ActualValueInMicroSeconds>1000000</ActualValueInMicroSeconds>
+              </OverviewTimeResolution>
+              <ZoomTimeResolution>
+                <ActualValueInMicroSeconds>1000000</ActualValueInMicroSeconds>
+              </ZoomTimeResolution>
+              <OverviewFrequencyResolution>
+                <ActualValueInHertz>1000</ActualValueInHertz>
+              </OverviewFrequencyResolution>
+              <ZoomFrequencyResolution>
+                <ActualValueInHertz>1000</ActualValueInHertz>
+              </ZoomFrequencyResolution>
+              <OverviewNumberResolution>
+                <ActualValue>1000</ActualValue>
+              </OverviewNumberResolution>
+              <ZoomNumberResolution>
+                <ActualValue>1000</ActualValue>
+              </ZoomNumberResolution>
+              <OverviewXTimeResolution>
+                <ActualValueInSecondsD>10</ActualValueInSecondsD>
+                <ActualValueInSeconds>10.0</ActualValueInSeconds>
+              </OverviewXTimeResolution>
+              <ZoomXTimeResolution>
+                <ActualValueInSecondsD>10</ActualValueInSecondsD>
+                <ActualValueInSeconds>10.0</ActualValueInSeconds>
+              </ZoomXTimeResolution>
+            </SpikeAnalyzerDisplaySettings>
+            <SpikeAnalyzerBinDisplaySettings Version="1">
+              <OverviewTimeResolution>
+                <ActualValueInMicroSeconds>1000000</ActualValueInMicroSeconds>
+              </OverviewTimeResolution>
+              <ZoomTimeResolution>
+                <ActualValueInMicroSeconds>1000000</ActualValueInMicroSeconds>
+              </ZoomTimeResolution>
+              <OverviewFrequencyResolution>
+                <ActualValueInHertz>1000</ActualValueInHertz>
+              </OverviewFrequencyResolution>
+              <ZoomFrequencyResolution>
+                <ActualValueInHertz>1000</ActualValueInHertz>
+              </ZoomFrequencyResolution>
+              <OverviewNumberResolution>
+                <ActualValue>1000</ActualValue>
+              </OverviewNumberResolution>
+              <ZoomNumberResolution>
+                <ActualValue>1000</ActualValue>
+              </ZoomNumberResolution>
+              <OverviewXTimeResolution>
+                <ActualValueInSecondsD>10</ActualValueInSecondsD>
+                <ActualValueInSeconds>10.0</ActualValueInSeconds>
+              </OverviewXTimeResolution>
+              <ZoomXTimeResolution>
+                <ActualValueInSecondsD>10</ActualValueInSecondsD>
+                <ActualValueInSeconds>10.0</ActualValueInSeconds>
+              </ZoomXTimeResolution>
+            </SpikeAnalyzerBinDisplaySettings>
+            <AnalyzerParameters>
+              <EnAllSpikeAnalyzerParameter>Isi</EnAllSpikeAnalyzerParameter>
+            </AnalyzerParameters>
+            <AnalyzerBinParameters>
+              <EnAllSpikeAnalyzerParameter>Number</EnAllSpikeAnalyzerParameter>
+            </AnalyzerBinParameters>
+            <Bin>False</Bin>
+            <BinTime>10000000000</BinTime>
+            <ExportAnalyzerResults>False</ExportAnalyzerResults>
+            <IsInstrumentWindowOpen>True</IsInstrumentWindowOpen>
+            <UserDefinedName>Spike Analyzer</UserDefinedName>
+          </SpikeAnalyzerSettings>
+        </Settings>
+      </Instrument>
+      <Instrument Version="2">
+        <ID Version="1">
+          <UniqueName>OfflineBurstAnalyzer</UniqueName>
+          <DisplayName>Burst Analyzer</DisplayName>
+          <Guid>ddcab73f-8b9f-469e-9500-484bb222de54</Guid>
+          <PaletteCategory>Neuro</PaletteCategory>
+          <DeviceCategory>None</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>0</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </ID>
+        <InstrumentData />
+        <Settings>
+          <BurstAnalyzerSettings Version="1">
+            <AlgorithmSettings>
+              <KeyValuePairOfInt32BurstDetectorAlgorithmSettings>
+                <Key>0</Key>
+                <Value Version="1">
+                  <MaxIntervalStart>50000</MaxIntervalStart>
+                  <MaxIntervalEnd>50000</MaxIntervalEnd>
+                  <MinIntervalBetween>100000</MinIntervalBetween>
+                  <MinDuration>50000</MinDuration>
+                  <MinSpikeCount>4</MinSpikeCount>
+                </Value>
+              </KeyValuePairOfInt32BurstDetectorAlgorithmSettings>
+            </AlgorithmSettings>
+            <BurstAnalyzerDisplaySettings Version="1">
+              <OverviewDisplayTimeResolutionInterval>
+                <ActualValueInSecondsD>10</ActualValueInSecondsD>
+                <ActualValueInSeconds>10.0</ActualValueInSeconds>
+              </OverviewDisplayTimeResolutionInterval>
+              <ZoomDisplayTimeResolutionInterval>
+                <ActualValueInSecondsD>10</ActualValueInSecondsD>
+                <ActualValueInSeconds>10.0</ActualValueInSeconds>
+              </ZoomDisplayTimeResolutionInterval>
+            </BurstAnalyzerDisplaySettings>
+            <BurstAnalyzerParameterDisplaySettings Version="1">
+              <OverviewTimeResolution>
+                <ActualValueInMicroSeconds>1000000</ActualValueInMicroSeconds>
+              </OverviewTimeResolution>
+              <ZoomTimeResolution>
+                <ActualValueInMicroSeconds>1000000</ActualValueInMicroSeconds>
+              </ZoomTimeResolution>
+              <OverviewFrequencyResolution>
+                <ActualValueInHertz>1000</ActualValueInHertz>
+              </OverviewFrequencyResolution>
+              <ZoomFrequencyResolution>
+                <ActualValueInHertz>1000</ActualValueInHertz>
+              </ZoomFrequencyResolution>
+              <OverviewNumberResolution>
+                <ActualValue>1000</ActualValue>
+              </OverviewNumberResolution>
+              <ZoomNumberResolution>
+                <ActualValue>1000</ActualValue>
+              </ZoomNumberResolution>
+              <OverviewXTimeResolution>
+                <ActualValueInSecondsD>10</ActualValueInSecondsD>
+                <ActualValueInSeconds>10.0</ActualValueInSeconds>
+              </OverviewXTimeResolution>
+              <ZoomXTimeResolution>
+                <ActualValueInSecondsD>10</ActualValueInSecondsD>
+                <ActualValueInSeconds>10.0</ActualValueInSeconds>
+              </ZoomXTimeResolution>
+            </BurstAnalyzerParameterDisplaySettings>
+            <AnalyzerParameters>
+              <EnBurstAnalyzerParameter>Duration</EnBurstAnalyzerParameter>
+            </AnalyzerParameters>
+            <ExportAnalyzerResults>False</ExportAnalyzerResults>
+            <IsInstrumentWindowOpen>False</IsInstrumentWindowOpen>
+            <UserDefinedName>Burst Analyzer</UserDefinedName>
+          </BurstAnalyzerSettings>
+        </Settings>
+      </Instrument>
+    </Instruments>
+    <Connections Version="1">
+      <Connection>
+        <InPortID>
+          <Name />
+          <StreamType>Timestamps</StreamType>
+          <StreamSpecificType>SpikeTimestamps</StreamSpecificType>
+          <PortType>Input</PortType>
+        </InPortID>
+        <InInstrument Version="1">
+          <UniqueName>OfflineBurstAnalyzer</UniqueName>
+          <DisplayName>Burst Analyzer</DisplayName>
+          <Guid>ddcab73f-8b9f-469e-9500-484bb222de54</Guid>
+          <PaletteCategory>Neuro</PaletteCategory>
+          <DeviceCategory>None</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>0</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </InInstrument>
+        <OutPortID>
+          <Name />
+          <StreamType>Timestamps</StreamType>
+          <StreamSpecificType>SpikeTimestamps</StreamSpecificType>
+          <PortType>Output</PortType>
+        </OutPortID>
+        <OutInstrument Version="1">
+          <UniqueName>OfflineSpikeDetector</UniqueName>
+          <DisplayName>Spike Detector</DisplayName>
+          <Guid>4b890d2e-7dea-422b-b7e1-db5c0b8ba037</Guid>
+          <PaletteCategory>Neuro</PaletteCategory>
+          <DeviceCategory>None</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>6</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </OutInstrument>
+        <IsHidden>False</IsHidden>
+      </Connection>
+      <Connection>
+        <InPortID>
+          <Name />
+          <StreamType>Timestamps</StreamType>
+          <StreamSpecificType>SpikeTimestamps</StreamSpecificType>
+          <PortType>Input</PortType>
+        </InPortID>
+        <InInstrument Version="1">
+          <UniqueName>OfflineSpikeAnalyzer</UniqueName>
+          <DisplayName>Spike Analyzer</DisplayName>
+          <Guid>e609c2e0-7a82-4b92-87f7-b14b1bf9e770</Guid>
+          <PaletteCategory>Neuro</PaletteCategory>
+          <DeviceCategory>None</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>0</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </InInstrument>
+        <OutPortID>
+          <Name />
+          <StreamType>Timestamps</StreamType>
+          <StreamSpecificType>SpikeTimestamps</StreamSpecificType>
+          <PortType>Output</PortType>
+        </OutPortID>
+        <OutInstrument Version="1">
+          <UniqueName>OfflineSpikeDetector</UniqueName>
+          <DisplayName>Spike Detector</DisplayName>
+          <Guid>4b890d2e-7dea-422b-b7e1-db5c0b8ba037</Guid>
+          <PaletteCategory>Neuro</PaletteCategory>
+          <DeviceCategory>None</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>6</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </OutInstrument>
+        <IsHidden>False</IsHidden>
+      </Connection>
+      <Connection>
+        <InPortID>
+          <Name />
+          <StreamType>SampledChannelData</StreamType>
+          <StreamSpecificType>ElectrodeData</StreamSpecificType>
+          <PortType>Input</PortType>
+        </InPortID>
+        <InInstrument Version="1">
+          <UniqueName>OfflineSpikeDetector</UniqueName>
+          <DisplayName>Spike Detector</DisplayName>
+          <Guid>4b890d2e-7dea-422b-b7e1-db5c0b8ba037</Guid>
+          <PaletteCategory>Neuro</PaletteCategory>
+          <DeviceCategory>None</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>6</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </InInstrument>
+        <OutPortID>
+          <Name />
+          <StreamType>SampledChannelData</StreamType>
+          <StreamSpecificType>ElectrodeData</StreamSpecificType>
+          <PortType>Output</PortType>
+        </OutPortID>
+        <OutInstrument Version="1">
+          <UniqueName>RawDataExplorer</UniqueName>
+          <DisplayName>Raw Data Explorer</DisplayName>
+          <Guid>1bacc09c-e694-4950-9498-1ea1019d7f49</Guid>
+          <PaletteCategory>Data Sources</PaletteCategory>
+          <DeviceCategory>DataSource</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>6</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </OutInstrument>
+        <IsHidden>False</IsHidden>
+      </Connection>
+    </Connections>
+    <SyncConnections Version="1" />
+  </Experiment>
+  <ExperimentDiagramSettings Version="1">
+    <NodeSettingsList>
+      <NodeSettings Version="1">
+        <InstrumentID Version="1">
+          <UniqueName>RawDataExplorer</UniqueName>
+          <DisplayName>Raw Data Explorer</DisplayName>
+          <Guid>1bacc09c-e694-4950-9498-1ea1019d7f49</Guid>
+          <PaletteCategory>Data Sources</PaletteCategory>
+          <DeviceCategory>DataSource</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>6</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </InstrumentID>
+        <NodePosition>
+          <OffsetX>28</OffsetX>
+          <OffsetY>17</OffsetY>
+          <PositionX>103</PositionX>
+          <PositionY>50</PositionY>
+          <Width>150</Width>
+          <Height>66</Height>
+          <ActualWidth>150</ActualWidth>
+          <ActualHeight>66</ActualHeight>
+        </NodePosition>
+      </NodeSettings>
+      <NodeSettings Version="1">
+        <InstrumentID Version="1">
+          <UniqueName>OfflineSpikeDetector</UniqueName>
+          <DisplayName>Spike Detector</DisplayName>
+          <Guid>4b890d2e-7dea-422b-b7e1-db5c0b8ba037</Guid>
+          <PaletteCategory>Neuro</PaletteCategory>
+          <DeviceCategory>None</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>6</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </InstrumentID>
+        <NodePosition>
+          <OffsetX>28</OffsetX>
+          <OffsetY>140</OffsetY>
+          <PositionX>103</PositionX>
+          <PositionY>173</PositionY>
+          <Width>150</Width>
+          <Height>66</Height>
+          <ActualWidth>150</ActualWidth>
+          <ActualHeight>66</ActualHeight>
+        </NodePosition>
+      </NodeSettings>
+      <NodeSettings Version="1">
+        <InstrumentID Version="1">
+          <UniqueName>OfflineSpikeAnalyzer</UniqueName>
+          <DisplayName>Spike Analyzer</DisplayName>
+          <Guid>e609c2e0-7a82-4b92-87f7-b14b1bf9e770</Guid>
+          <PaletteCategory>Neuro</PaletteCategory>
+          <DeviceCategory>None</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>0</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </InstrumentID>
+        <NodePosition>
+          <OffsetX>28</OffsetX>
+          <OffsetY>239</OffsetY>
+          <PositionX>103</PositionX>
+          <PositionY>272</PositionY>
+          <Width>150</Width>
+          <Height>66</Height>
+          <ActualWidth>150</ActualWidth>
+          <ActualHeight>66</ActualHeight>
+        </NodePosition>
+      </NodeSettings>
+      <NodeSettings Version="1">
+        <InstrumentID Version="1">
+          <UniqueName>OfflineBurstAnalyzer</UniqueName>
+          <DisplayName>Burst Analyzer</DisplayName>
+          <Guid>ddcab73f-8b9f-469e-9500-484bb222de54</Guid>
+          <PaletteCategory>Neuro</PaletteCategory>
+          <DeviceCategory>None</DeviceCategory>
+          <Instance>1</Instance>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>0</VersionMinor>
+          <VersionPatchLevel>0</VersionPatchLevel>
+          <VersionBuild>0</VersionBuild>
+        </InstrumentID>
+        <NodePosition>
+          <OffsetX>28</OffsetX>
+          <OffsetY>345</OffsetY>
+          <PositionX>103</PositionX>
+          <PositionY>378</PositionY>
+          <Width>150</Width>
+          <Height>66</Height>
+          <ActualWidth>150</ActualWidth>
+          <ActualHeight>66</ActualHeight>
+        </NodePosition>
+      </NodeSettings>
+    </NodeSettingsList>
+    <ConnectionSettings />
+  </ExperimentDiagramSettings>
+</Multi_Channel_Suite>
