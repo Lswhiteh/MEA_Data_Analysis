@@ -7,3 +7,4 @@ These scripts are reliant on the file format produced by the spike detection fun
 
 This workflow was used in the following publications:
 
+Hedgehog pathway activation alters ciliary signaling in hypothalamic neurons (Bansal et al.)
